@@ -4,7 +4,27 @@
 <head>
 	<meta charset="utf-8">
 	<title>Creative Coding HW 6 Homepage</title>
+	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script>
+	$(document).ready(function(){
+  		$("button").click(function(){
+    		$("p").hide();
+    	});
+	});
+</script>
 	<style>
+		body{
+			font-size:24px;
+			text-align:center;
+			background-color:#FFEB99;
+		}
+		ul{
+			list-style:inside;
+		}
+		ol{
+			list-style-position:inside;
+		}
 	</style>
 </head>
 <body>
@@ -20,22 +40,22 @@
 	<br>
 	<h2>Favorite Websites:</h2>
 	<ol>
-		<li><a href="https://www.apple.com/">Apple</a></li>
-		<li><a href="https://www.jannikobenhoff.com/">Jannik Obenhoff's Photography Website</a></li>
-		<li><a href="https://www.adobe.com/">Adobe</a></li>
+		<li><a href="https://www.apple.com/" style="text-decoration:none"><span id="specificlink">Apple</span></a></li>
+		<li><a href="https://www.jannikobenhoff.com/" style="text-decoration:none">Jannik Obenhoff's Photography Website</a></li>
+		<li><a href="https://www.adobe.com/" style="text-decoration:none">Adobe</a></li>
 	</ol>
 	<br>
 	<h2>Favorite Restaurants:</h2>
 	<ol>
-		<li><a href="https://www.jakers.com/missoula/">Jakers Bar & Grill</a></li>
-		<li><a href="https://www.thekeeprestaurant.com/">The Keep Restaurant</a></li>
-		<li><a href="https://www.kobemissoula.com/">Kobe Missoula</a></li>
+		<li><a href="https://www.jakers.com/missoula/" style="text-decoration:none">Jakers Bar & Grill</a></li>
+		<li><a href="https://www.thekeeprestaurant.com/" style="text-decoration:none">The Keep Restaurant</a></li>
+		<li><a href="https://www.kobemissoula.com/" style="text-decoration:none">Kobe Missoula</a></li>
 	</ol>
 	<h2>Portfolio</h2>
-	<h3><a href="profile.html">Photography Page</a></h3>
+	<h3><a href="profile.html" style="font-color:#000000">Photography Page</a></h3>
 	<br>
 
-	<h2><a href="contact.html">Contact Us</a></h2>
+	<button><h2><a href="contact.html"><span id="specificlink">Contact Us</span></a></h2></button>
 </body>
 </html>
 

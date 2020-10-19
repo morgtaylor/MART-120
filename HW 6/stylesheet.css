@@ -1,0 +1,19 @@
+body{
+	font-family: sans-serif;
+}
+h2{
+	font-size:28px;
+	font-variant: small-caps;
+	border-style: groove;
+	border-color: navy;
+}
+.redcolor{
+	color: #800000;
+	font-family: Jazz LET, fantasy;
+}
+#specificlink{
+	font-color: white;
+	border-color: black;
+	border-fill: black;
+	font-family: serif;
+}
